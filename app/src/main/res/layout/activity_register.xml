@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:padding="40dp">
+
+    <!--Label register-->
+    <TextView
+        android:id="@+id/registerTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Register"
+        android:textSize="30sp"/>
+
+    <!--EditText Input email-->
+    <EditText
+        android:id="@+id/emailInp"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerTxt"/>
+
+    <!--EditText Input password-->
+    <EditText
+        android:id="@+id/passInp"
+        android:inputType="textEmailAddress"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailInp"/>
+    <!--Register button-->
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_below="@+id/passInp"/>
+    <TextView
+        android:id="@+id/haveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="already have account? login"
+        android:textColor="@color/black"
+        android:layout_below="@+id/registerBtn"/>
+
+
+
+</RelativeLayout>

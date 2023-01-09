@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "630760305155",
+    "firebase_url": "https://david-ab148-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "david-ab148",
+    "storage_bucket": "david-ab148.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630760305155:android:a195cc77a7caaf19ad5436",
+        "android_client_info": {
+          "package_name": "com.example.david"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630760305155-hh2ii9em5j8e7dqdvq9ll6r8rk9hgo5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAg4d6a0S6g1oS0kXGoAVit9C06tPndI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630760305155-hh2ii9em5j8e7dqdvq9ll6r8rk9hgo5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630760305155:android:e402c78dbc15d193ad5436",
+        "android_client_info": {
+          "package_name": "com.example.instabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630760305155-hh2ii9em5j8e7dqdvq9ll6r8rk9hgo5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAg4d6a0S6g1oS0kXGoAVit9C06tPndI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630760305155-hh2ii9em5j8e7dqdvq9ll6r8rk9hgo5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
